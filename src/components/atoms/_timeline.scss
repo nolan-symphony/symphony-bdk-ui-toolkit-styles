@@ -14,7 +14,7 @@
       cursor: pointer;
     }
 
-    &-icon {
+    &--icon {
       margin-left: toRem(-11);
       background: $--tk-timeline-background-color;
       color: $--tk-timeline-text-color;
@@ -34,23 +34,23 @@
       margin-left: toRem(12);
     }
 
-    &-contentWrapper {
+    &--content {
       width: toRem(300);
     }
 
-    &-onlyHeader {
+    &--header-only {
       margin-top: toRem(8);
     }
 
-    &-date {
+    &--date {
       margin: toRem(4) toRem(12);
     }
 
-    &-day {
+    &--day {
       font-weight: bold;
     }
 
-    &-hours {
+    &--hours {
       color: $--tk-timeline-hours-color;
     }
   }
@@ -59,25 +59,25 @@
     display: flex;
     flex-direction: column;
 
-    &-body {
+    &--body {
       margin-left: toRem(10);
       border-left: toRem(1) solid $--tk-timeline-expand-icon-color;
       padding-left: toRem(22);
       padding-top: toRem(4);
     }
 
-    &-headerContainer {
+    &--header-container {
       display: flex;
       flex-direction: row;
       align-items: baseline;
     }
 
-    &-icon {
+    &--icon {
       padding: toRem(4);
       margin-right: toRem(12);
     }
 
-    &-header {
+    &--header {
       display: flex;
       align-items: baseline;
     }
